@@ -34,8 +34,7 @@ public class TLogParser {
         /**
          * Constructor to create a TLogIterator with a specified Handler.
          *
-         * @param uri     Location of the TLog files
-         * @param handler Handler to post results to
+         * @param uri Location of the TLog files
          */
         public TLogIterator(URI uri) {
             file = new File(uri.toString());
@@ -114,13 +113,13 @@ public class TLogParser {
 
         private void sendResult(final TLogIteratorCallback callback, final Event event) {
             if (callback != null) {
-            	callback.onResult(event);
+                callback.onResult(event);
             }
         }
 
         private void sendFailed(final TLogIteratorCallback callback, final Exception e) {
             if (callback != null) {
-            	callback.onFailed(e);
+                callback.onFailed(e);
             }
         }
     }
