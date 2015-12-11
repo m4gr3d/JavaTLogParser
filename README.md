@@ -8,4 +8,4 @@ You can run the code the following ways: <br/>
 
 `java -jar out/artifacts/TLogParser.jar file1 file2`
 
-You can modify the filter to only look for certain messages. All changes should be made in `com/o3dr/tlog/Main.java`
+You can modify the filter to only look for certain messages. All changes should be made in `src/com/o3dr/tlog/Main.java`
