@@ -134,7 +134,7 @@ public class msg_named_value_int extends MAVLinkMessage{
     * Returns a string with the MSG name and data
     */
     public String toString(){
-        return "MAVLINK_MSG_ID_NAMED_VALUE_INT -"+" time_boot_ms:"+time_boot_ms+" value:"+value+" name:"+name+"";
+        return "MAVLINK_MSG_ID_NAMED_VALUE_INT -"+" time_boot_ms:"+time_boot_ms+" value:"+value+" name:"+getName()+"";
     }
 }
         
